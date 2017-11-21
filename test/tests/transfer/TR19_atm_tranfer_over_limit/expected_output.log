@@ -1,0 +1,10 @@
+Enter a command: login
+Select mode (atm/agent) or logout: atm
+INFO: Logged into atm mode
+Enter a command: transfer 12345678 22345678 100000
+INFO: Transfer complete: 100000 from account 12345678 to account 22345678
+Enter a command: transfer 12345678 22345678 100
+ERROR: Amount exceed withdraw allowance for account 12345678
+Enter a command: logout
+INFO: Logged out
+Enter a command:

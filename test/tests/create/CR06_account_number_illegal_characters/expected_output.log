@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: create a7654321 John
+ERROR: Invalid account number a7654321
+Enter a command: logout
+INFO: Logged out
+Enter a command:

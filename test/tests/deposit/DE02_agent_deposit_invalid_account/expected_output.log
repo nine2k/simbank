@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: deposit 1111111a 10000
+ERROR: Invalid account number 1111111a
+Enter a command: logout
+INFO: Logged out
+Enter a command:

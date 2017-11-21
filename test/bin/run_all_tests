@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+import fnmatch, os, sys, imp
+
+try:
+    imp.find_module('pexpect')
+    found = True
+except ImportError:
+    found = False
+
+if (not found):
+  print("Please first install pexpect by calling:\neasy_install pexpect\tor\npip install pexpect")
+  exit(0)
+
+# Figure out the path namtes
+
+# Path to simbank/test/bin
+tests_bin = os.path.dirname(os.path.realpath(__file__))
+# Path to simbank/test/tests
+tests_dir = os.path.join(os.path.dirname(tests_bin),'tests')
+# Path to simbank/test/lib
+tests_lib = os.path.join(os.path.dirname(tests_bin),'lib')
+# Path to simbank/test
+main_tests_dir = os.path.dirname(tests_bin)
+# Path to simbank/
+main_dir = os.path.dirname(main_tests_dir)
+# Path to simbank/bin
+main_bin = os.path.join(main_dir, 'bin')
+
+# Add simbank/test/lib to python path
+sys.path.append(tests_lib)
+# Add simbank/bin/simbank script to $PATH
+os.environ["PATH"] += os.pathsep + main_bin
+# Set envar TEST_LIB to simbank/test/tests
+os.environ['TEST_LIB'] = os.path.dirname(os.path.realpath(__file__))
+
+from test_runner import *
+ 
+tests = []
+# Find all tests under the directory simbank/test/tests
+for root, dirnames, filenames in os.walk(tests_dir):
+  for filename in fnmatch.filter(filenames, 'testscript.py'):
+        tests.append(os.path.join(root, filename))
+tests.sort()
+# Run these tests
+t = TestRunner()
+t.run_tests(tests)

@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: delete 22345677 Emily
+ERROR: Account 22345677 is not active, it cannot be deleted
+Enter a command: logout
+INFO: Logged out
+Enter a command:

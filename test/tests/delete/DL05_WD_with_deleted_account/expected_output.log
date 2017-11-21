@@ -1,0 +1,11 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: delete 12345678 John
+INFO: Delete account complete: name John account number 12345678
+Enter a command: withdraw 12345678 10000
+ERROR: Account 12345678 does not exist or is currently inactive
+Enter a command: logout
+INFO: Logged out
+Enter a command:
+

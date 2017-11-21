@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: transfer 12345678 22345679 333
+ERROR: Account 22345679 does not exist or is currently inactive
+Enter a command: logout
+INFO: Logged out
+Enter a command:

@@ -1,0 +1,10 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: withdraw 12345678 100000
+INFO: Withdraw complete: 100000 from account 12345678
+Enter a command: withdraw 12345678 100
+INFO: Withdraw complete: 100 from account 12345678
+Enter a command: logout
+INFO: Logged out
+Enter a command:

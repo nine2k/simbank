@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: deposit 12345678 100000000
+ERROR: Invalid transaction value for agent mode
+Enter a command: logout
+INFO: Logged out
+Enter a command:

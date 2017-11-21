@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: logout
+INFO: Logged out
+Enter a command: logout
+ERROR: Cannot process command before login
+Enter a command:

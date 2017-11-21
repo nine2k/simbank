@@ -1,0 +1,10 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: delete 22345678 Emily
+INFO: Delete account complete: name Emily account number 22345678
+Enter a command: deposit 22345678 100
+ERROR: Account 22345678 does not exist or is currently inactive
+Enter a command: logout
+INFO: Logged out
+Enter a command:

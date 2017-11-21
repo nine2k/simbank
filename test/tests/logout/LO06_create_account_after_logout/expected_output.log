@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: atm
+INFO: Logged into atm mode
+Enter a command: logout
+INFO: Logged out
+Enter a command: create 87654321 John
+ERROR: Cannot process command before login
+Enter a command:

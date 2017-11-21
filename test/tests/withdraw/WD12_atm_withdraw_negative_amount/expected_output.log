@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: atm
+INFO: Logged into atm mode
+Enter a command: withdraw 12345678 -10000
+ERROR: Invalid transaction amount -10000
+Enter a command: logout
+INFO: Logged out
+Enter a command:

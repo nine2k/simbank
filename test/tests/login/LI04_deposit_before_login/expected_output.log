@@ -1,0 +1,3 @@
+Enter a command: deposit 12345678 3333
+ERROR: Cannot process command before login
+Enter a command:

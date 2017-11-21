@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: transfer 12345678 22345678 333
+INFO: Transfer complete: 333 from account 12345678 to account 22345678
+Enter a command: logout
+INFO: Logged out
+Enter a command:

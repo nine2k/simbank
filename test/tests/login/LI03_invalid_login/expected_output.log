@@ -1,0 +1,4 @@
+Enter a command: login
+Select mode (atm/agent) or logout: cat
+ERROR: Invalid mode cat
+Select mode (atm/agent) or logout: 

@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: transfer 1234567a 22345678 333
+ERROR: Invalid account number 1234567a
+Enter a command: logout
+INFO: Logged out
+Enter a command:

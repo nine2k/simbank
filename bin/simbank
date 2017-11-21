@@ -1,0 +1,6 @@
+#!/bin/sh
+# runs the simbank.py module with commandline arguments
+
+DIR="$( cd ${0%/*} && pwd )"
+BASE_DIR=`dirname ${DIR}` 
+python "$BASE_DIR/lib/simbank.py" $*

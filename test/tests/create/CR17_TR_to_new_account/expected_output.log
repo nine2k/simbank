@@ -1,0 +1,10 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: create 87654321 John
+INFO: Create account complete: name John account number 87654321
+Enter a command: transfer 12345678 87654321 100
+ERROR: Account 87654321 does not exist or is currently inactive
+Enter a command: logout
+INFO: Logged out
+Enter a command:

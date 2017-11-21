@@ -1,0 +1,6 @@
+Enter a command: login
+Select mode (atm/agent) or logout: atm
+INFO: Logged into atm mode
+Enter a command: login
+ERROR: Already logged in
+Enter a command:

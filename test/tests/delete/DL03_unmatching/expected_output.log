@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: delete 22345678 Emilyy
+INFO: Delete account complete: name Emilyy account number 22345678
+Enter a command: logout
+INFO: Logged out
+Enter a command:

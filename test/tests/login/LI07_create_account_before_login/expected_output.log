@@ -1,0 +1,3 @@
+Enter a command: create 87654321 John
+ERROR: Cannot process command before login
+Enter a command:

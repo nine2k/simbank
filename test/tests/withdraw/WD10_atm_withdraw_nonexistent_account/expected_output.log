@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: atm
+INFO: Logged into atm mode
+Enter a command: withdraw 12345555 100
+ERROR: Account 12345555 does not exist or is currently inactive
+Enter a command: logout
+INFO: Logged out
+Enter a command:

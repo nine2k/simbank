@@ -1,0 +1,8 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: create 87654321 
+ERROR: Invalid command format
+Enter a command: logout
+INFO: Logged out
+Enter a command:

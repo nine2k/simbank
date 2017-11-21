@@ -1,0 +1,9 @@
+Enter a command: login
+Select mode (atm/agent) or logout: agent
+INFO: Logged into agent mode
+Enter a command: deposit 12345678 100
+INFO: Deposit complete: 100 to account 12345678
+Enter a command: logout
+INFO: Logged out
+Enter a command:
+

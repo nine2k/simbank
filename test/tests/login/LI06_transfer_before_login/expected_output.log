@@ -1,0 +1,3 @@
+Enter a command: transfer 12345678 22345678 3333
+ERROR: Cannot process command before login
+Enter a command:
